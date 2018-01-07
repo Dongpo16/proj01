@@ -45,3 +45,29 @@ git push -u origin master
 git config credential.${remote}.username dongpo16
 git config credential.helper store
 git push origin master
+
+
+---------------
+Mac Pro      //local storage
+www.github.com   //remote storage
+https://dashboard.heroku.com/apps  //remote website
+
+<Local storage>. —git push command—><remote storage>—git push heroic master—><remote website>
+
+//git command
+$ git clone git_deposit_website.  //copy remote to local
+$ git add .    //add every in local  repository 
+$ git commit -m”add readme”  //commit every thing to local repository
+$ git push -u origin master    //push local to remote
+
+
+
+//some unix commands
+$ mkdir  directory_name    //create a folder
+$ pwd           //show the directory path (where I am)
+$ ls               //list directory (folder)
+$ cd directory_name.  //change directory
+$ cd ..    //change to previous (parent) directory
+$ cp ../test_heroku/zreadme .    //copy a file to here
+
+
